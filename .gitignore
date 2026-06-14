@@ -1,0 +1,19 @@
+# --- Go Build Artifacts ---
+bin/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+nexus
+
+# --- Rust Build Artifacts ---
+target/
+**/*.rs.bk
+Cargo.lock
+
+# --- System & IDE Junk ---
+.DS_Store
+.vscode/
+.idea/
+*.log
